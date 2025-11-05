@@ -8,6 +8,6 @@ void setup() {
 }
 
 void loop() {
-  analogWrite(ledPin, map(analogRead(photoPin), 0, 1023, 0, 255)); //Maps photoreceptor data to 8-byte, then sends to LED.
+  analogWrite(ledPin, map(analogRead(photoPin), 0, 1023, 108, 255)); //Maps photoreceptor data to 8-byte, then sends to LED.
 
 }
